@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.subbox01{
+    background-color: blue;
+    display: flex;
+    justify-content:space-between;
+    margin: 20px;
+    border-radius: 10px;
+}
+.subbox01 .logo{
+    margin: 20px;
+}
+.subbox01 .logo>h1>a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.subbox01 .menu .box01{
+    display: flex;
+    margin: 30px;
+}
+.subbox01 .menu .box01>li{
+    list-style-type:none;
+}
+.subbox01 .menu .box01>li>a{
+    text-decoration:none;
+    font-size: 20px;
+    font-weight:bold;
+    color:#fff;
+    margin: 10px;
+}
+
+.mainbox02{
+    display:flex;
+}
+/*subbox02*/
+.subbox02{
+    width: 250px;
+    height: 750px;
+    background-color: blue;
+    margin-left:20px;
+    border-radius: 20px;
+}
+.subbox02 .box01{
+    position: relative;
+    top: 20px;
+    margin-top:30px;
+    margin-left: 15px;
+}
+
+.subbox02 .box01 .menu li{
+    list-style-type:none;
+    font-size: 25px;
+    padding: 20px;
+    color:#fff;
+}
+.subbox02 .box01 .menu li a{
+    text-decoration:none;
+    color:#fff;
+    margin-left: 20px;
+    font-weight:bold;
+}
+.subbox02 .box02{
+    position: relative;
+    top:210px;
+    margin-left: 15px;
+}
+
+.subbox02 .box02 .menu li{
+    list-style-type:none;
+    font-size: 25px;
+    padding: 20px;
+    color:#fff;
+}
+
+.subbox02 .box02 .menu li a{
+    text-decoration:none;
+    color:#fff;
+    margin-left: 20px;
+    font-weight:bold;
+}
+
+/* subbox03 */
+.subbox03{
+    width: 82%;
+    height:750px;
+    border-radius:20px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subbox03 .box01{    
+    height: 50px;
+    margin: 20px;
+}
+.subbox03 .box01 input{
+    margin-left: 30%;
+    width: 500px;
+    height: 40px;
+    border-radius:5px;
+}
+
+.subbox03 .box02 {
+    display:flex;
+    height: 300px;
+    width: 90%;
+    margin-top: 50px;
+    margin-left:75px;
+}
+.subbox03 .box02 .box0201,
+.subbox03 .box02 .box0202,
+.subbox03 .box02 .box0203,
+.subbox03 .box02 .box0204{
+    position: relative;
+    top: 20px;
+    width:300px;
+    height:160px;
+    margin-left:50px;
+    border-radius:10px;
+}
+.subbox03 .box02 .box0201{
+    background-color:pink;
+}
+.subbox03 .box02 .box0202{
+    background-color:lightgreen;
+}
+.subbox03 .box02 .box0203{
+    background-color:lightblue;
+}
+.subbox03 .box02 .box0204{
+    background-color: lightsalmon;
+}
+.subbox03 .box02 .box0201 i,
+.subbox03 .box02 .box0202 i,
+.subbox03 .box02 .box0203 i,
+.subbox03 .box02 .box0204 i{
+    margin-left:42%;
+    margin-top:5px;
+    font-size:50px;
+}
+.subbox03 .box02 .box0201 h3,
+.subbox03 .box02 .box0202 h3,
+.subbox03 .box02 .box0203 h3,
+.subbox03 .box02 .box0204 h3,
+.subbox03 .box02 .box0201 h1,
+.subbox03 .box02 .box0202 h1,
+.subbox03 .box02 .box0203 h1,
+.subbox03 .box02 .box0204 h1{
+    margin-left:33%;
+    margin-top: 13px;
+}
+.subbox03 .box03{
+    width: 90%;
+    height: 300px;
+    margin-top: -50px;
+    margin-left:75px;
+}
+.subbox03 .box03 h1{
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.subbox03 .box03 table{
+    margin-left: -40px;
+}
+
+.box03 table tr, th{
+    width: 260px;
+    font-size:30px;
+    padding: 10px;
+}
+.box03 table tr,td{
+    
+    text-align: center;
+    font-size:20px;
+    padding: 5px;
+}
